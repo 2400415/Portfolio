@@ -1,0 +1,114 @@
+
+html {
+    scroll-behavior: smooth;
+
+
+
+    min-width: 320px;
+    height: auto;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: deepskyblue;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: #222; /* Dark background */
+}
+
+
+body{
+
+    background-color: #121933;
+
+    margin: 0;
+    width: 100%;
+    height: 200vh;
+
+}
+
+.aboutMe{
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 0px;
+
+    color:white;
+
+    font-size: 60px;
+
+    font-family: "Agency FB";
+
+    border-bottom: 5px;
+
+    border-bottom-color:red;
+
+    border-bottom-radius: 5px;
+
+    border-bottom-style: solid;
+
+
+}
+
+img{
+
+    background-size: contain;
+
+    /* we adjust the image size to prevent it from being too large or small */
+
+
+    width: 150px;
+    height: auto;
+
+position: absolute;
+    top:30px;
+    right :50px;
+
+
+}
+
+p1{
+
+    font-size: 20px;
+
+    font-family: "Arial Rounded MT Bold";
+
+    color: white;
+
+    position: absolute;
+    top: 250px;
+    left:50px;
+
+}
+
+#academic{
+
+    color: deepskyblue;
+
+    font-size: 30px;
+
+    font-family: "Arial Rounded MT Bold";
+
+    position:absolute;
+
+    top:160px;
+
+    left:150px;
+
+    border-bottom: 5px;
+
+    border-bottom-style: solid ;
+
+    border-radius: 5px;
+
+}
+

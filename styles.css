@@ -1,0 +1,253 @@
+html {
+    scroll-behavior: smooth;
+
+
+
+        min-width: 320px;
+        height: auto;
+
+}
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: deepskyblue;
+        border-radius: 5px;
+    }
+
+::-webkit-scrollbar-track {
+
+    background: #222; /* Dark background */
+}
+
+
+#heading{
+
+    /* this is the portfolio heading */
+
+  color:deepskyblue;
+
+    font-family: "Agency FB";
+
+    font-size: xxx-large;
+
+    position: absolute;
+
+    top: 20px;
+
+    left :10px;
+
+
+}
+
+body{
+
+
+   background-color: #121933;
+
+
+}
+
+.ul{
+
+
+    background:  #121933 ;
+
+    /* positioning attributes and related things */
+
+
+
+    style-type:none;
+
+
+        position: absolute;
+        top: 30px;
+        right:3px;
+
+/*  changing the size aspect of the list */
+        padding:6px;
+
+        width:40%;
+
+
+
+
+    /* border attributes and related things */
+
+
+    border-bottom:5px;
+
+        border-bottom-style:solid;
+
+
+        border-bottom-color : deepskyblue;
+
+        border-radius: 5px;
+
+    /* we create and make a border at the top to copliment the style */
+
+
+   border-top:5px;
+
+    border-top-style:dashed;
+
+    border-radius: 5px;
+
+    border-top-color : deepskyblue;
+
+}
+
+.li{
+
+
+    text-align: center;
+
+    display:inline-block;
+
+     /* background:lightblue; */
+
+    background-color: white;
+
+    padding:3px;
+
+
+}
+
+
+
+
+img{
+
+        background-size: contain;
+
+    /* we adjust the image size to prevent it from being too large or small */
+
+
+    width: 150px;
+    height: auto;
+
+
+}
+
+
+.a{
+
+
+    font-family: "Arial Rounded MT Bold";
+    text-decoration: none;     /* this removes lines among the close boxes */
+
+    font-size: 10px;
+
+    font-weight:bold;
+
+}
+
+
+
+img {
+
+/ / setting the image properties to desired
+
+     size width: 100 px;
+    height: auto;
+    max-width: 100%; /* Prevents overflowing */
+    display: compact; /* Ensures correct alignment */
+
+    position: relative ;
+    top: 0px;
+    left:15px;
+
+}
+
+.glowing-circle {
+    width: 200px; /* Adjust size */
+    height: 250px;
+    border-radius: 85%; /* Makes it a perfect circle */
+    overflow: hidden; /* Ensures the image stays inside */
+
+    position: absolute;
+    top: 220px;
+    left: 10px;
+
+    box-shadow: 0 0 15px #0ea5eb, 0 0 30px #09f1ea; // for the glow
+transition: 0.3s ease-in-out;
+}
+
+
+
+    ul :hover {
+        background-color: black;
+    / / color: deepskyblue;
+
+        color: lawngreen;
+
+
+    }
+
+    /* adding animations  */
+
+@keyframes slideText {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.movingText {
+    font-size: 30px;
+    font-weight: bold;
+    color: deepskyblue;
+    animation: slideText 17s linear infinite;
+    animation-delay: 2s;
+
+      /* adjusting the animation */
+
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+#name{
+
+    font-family: "Agency FB";
+    font-size: 50px;
+    color: cyan;
+    position: absolute;
+    top: 170px;
+    left: 280px;
+
+    border-bottom: 5px solid deepskyblue;
+
+}
+
+.message{
+
+    position: absolute;
+    top: 350px;
+    left: 230px;
+    color:lightyellow;
+
+    font-size: 30px;
+    font-family: "Agency FB";
+
+
+}
+
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+/* media queries for website responsiveness to different screen sizes*/
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items on smaller screens */
+    }
+}
+
+
